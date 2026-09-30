@@ -1021,58 +1021,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "data ophalen & opslaan",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "data ophalen & opslaan"
-            ],
-            "id": "b4c03a13-07b8-4953-af1f-8d8a89a5760c",
-            "source": {
-              "cell": "0b702df2-efdc-4a2c-9d77-7ce855442701",
-              "port": "476d0e2e-d241-402a-b3be-4fdb2bedad3c"
-            },
-            "target": {
-              "cell": "d86af762-0678-4957-9487-1ea349f108e8",
-              "port": "6824a6b0-3672-4241-9032-422bb808f891"
-            },
-            "vertices": [
-              {
-                "x": 1390,
-                "y": 500
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "ingelogd",
               "description": "",
               "outOfScope": false,
@@ -1296,7 +1244,7 @@
             },
             "vertices": [
               {
-                "x": 1360,
+                "x": 1420,
                 "y": 580
               }
             ]
@@ -1352,8 +1300,60 @@
                 "y": 550
               },
               {
-                "x": 1400,
+                "x": 1450,
                 "y": 550
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "data ophalen & opslaan",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "data ophalen & opslaan"
+            ],
+            "id": "b4c03a13-07b8-4953-af1f-8d8a89a5760c",
+            "source": {
+              "cell": "0b702df2-efdc-4a2c-9d77-7ce855442701",
+              "port": "476d0e2e-d241-402a-b3be-4fdb2bedad3c"
+            },
+            "target": {
+              "cell": "d86af762-0678-4957-9487-1ea349f108e8",
+              "port": "59e5c7c1-7a94-46c4-a48a-a005820b3095"
+            },
+            "vertices": [
+              {
+                "x": 1470,
+                "y": 520
               }
             ]
           },
@@ -2643,9 +2643,18 @@
               "cell": "0b702df2-efdc-4a2c-9d77-7ce855442701",
               "port": "476d0e2e-d241-402a-b3be-4fdb2bedad3c"
             },
-            "vertices": [],
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
@@ -2728,6 +2737,53 @@
                 "target-arrowhead"
               ],
               "name": null
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 40,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "data tonen",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "data tonen"
+            ],
+            "id": "77fae8a5-f268-402c-a177-5d81778818e4",
+            "source": {
+              "x": 1230,
+              "y": 530
+            },
+            "target": {
+              "cell": "cdd8620f-4ce9-4910-88e1-83e4dc5041f2",
+              "port": "5b0f2bd5-4d3c-4e1f-ae7a-4e6ea177cf16"
             }
           }
         ]
