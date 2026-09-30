@@ -1034,8 +1034,8 @@
             },
             "vertices": [
               {
-                "x": 1390,
-                "y": 540
+                "x": 1380,
+                "y": 550
               }
             ]
           },
@@ -1190,8 +1190,8 @@
             },
             "vertices": [
               {
-                "x": 1380,
-                "y": 500
+                "x": 1390,
+                "y": 520
               }
             ]
           },
@@ -2416,15 +2416,72 @@
             ],
             "id": "c65a460e-d395-4dc3-bb7b-e914931c7cc8",
             "source": {
-              "x": 1220,
-              "y": 460
+              "cell": "0b702df2-efdc-4a2c-9d77-7ce855442701",
+              "port": "476d0e2e-d241-402a-b3be-4fdb2bedad3c"
             },
             "target": {
-              "x": 1194,
-              "y": 700
+              "cell": "669736e1-2ff0-405c-bdb2-52eb327e216f",
+              "port": "fda8129a-7228-4abf-9469-aa84e4e452bf"
+            },
+            "vertices": [
+              {
+                "x": 1100,
+                "y": 560
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 37,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "data zien",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "data zien"
+            ],
+            "id": "25d9e524-48ac-4fdf-baf7-4eae9cf0eefb",
+            "source": {
+              "x": 870,
+              "y": 740
+            },
+            "target": {
+              "x": 1105,
+              "y": 830
             },
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
