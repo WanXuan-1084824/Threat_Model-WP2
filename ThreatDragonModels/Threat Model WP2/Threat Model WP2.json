@@ -381,7 +381,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Portal beheerder"
+                "text": "portaal beheerder"
               },
               "body": {
                 "stroke": "#333333",
@@ -477,7 +477,7 @@
             "id": "a06aee4c-2885-424a-b322-683bfc9011a4",
             "data": {
               "type": "tm.Actor",
-              "name": "Portal beheerder",
+              "name": "portaal beheerder",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -498,7 +498,7 @@
             },
             "attrs": {
               "text": {
-                "text": "portal organisaties"
+                "text": "portaal organisaties"
               },
               "body": {
                 "stroke": "#333333",
@@ -594,7 +594,7 @@
             "id": "1ce72c62-2d2d-4577-803c-cace9316c5b3",
             "data": {
               "type": "tm.Actor",
-              "name": "portal organisaties",
+              "name": "portaal organisaties",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -602,6 +602,13 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -615,7 +622,7 @@
             },
             "attrs": {
               "text": {
-                "text": "portal ervaringsdeskundigen"
+                "text": "portaal ervaringsdeskundigen"
               },
               "body": {
                 "stroke": "#333333",
@@ -711,7 +718,7 @@
             "id": "6d576e71-db55-4912-8cb9-a94d24cacd8f",
             "data": {
               "type": "tm.Actor",
-              "name": "portal ervaringsdeskundigen",
+              "name": "portaal ervaringsdeskundigen",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
