@@ -741,58 +741,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "gegevens sturen",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "gegevens sturen"
-            ],
-            "id": "eaec02a0-b1ab-4c0c-81bb-b75229240b40",
-            "source": {
-              "cell": "2183a816-92fb-4721-a913-c145b0d5f596",
-              "port": "1dcb9945-be34-4f97-89b4-da3efc7076f8"
-            },
-            "target": {
-              "cell": "0b702df2-efdc-4a2c-9d77-7ce855442701",
-              "port": "65cdce82-1fe5-43fc-9873-e38cc47a4dee"
-            },
-            "vertices": [
-              {
-                "x": 660,
-                "y": 320
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "checken",
               "description": "",
               "outOfScope": false,
@@ -921,7 +869,13 @@
             "target": {
               "cell": "be0af43e-72a2-4e3d-906a-42fb7bd7b98d",
               "port": "e7a9bccf-96af-48d8-8255-2026274d3441"
-            }
+            },
+            "vertices": [
+              {
+                "x": 490,
+                "y": 505
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1121,6 +1075,58 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "gegevens sturen",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "gegevens sturen"
+            ],
+            "id": "eaec02a0-b1ab-4c0c-81bb-b75229240b40",
+            "source": {
+              "cell": "2183a816-92fb-4721-a913-c145b0d5f596",
+              "port": "476d0e2e-d241-402a-b3be-4fdb2bedad3c"
+            },
+            "target": {
+              "cell": "0b702df2-efdc-4a2c-9d77-7ce855442701",
+              "port": "ba7da4f9-6307-4bed-9497-bf99f3ccaad4"
+            },
+            "vertices": [
+              {
+                "x": 580,
+                "y": 400
+              }
+            ]
+          },
+          {
             "position": {
               "x": 613.75,
               "y": 272
@@ -1242,8 +1248,8 @@
           },
           {
             "position": {
-              "x": 740,
-              "y": 332
+              "x": 613.75,
+              "y": 465
             },
             "size": {
               "width": 90,
@@ -1526,23 +1532,23 @@
             "id": "582e570d-6bc4-4efc-9024-a65b31391bb2",
             "source": {
               "cell": "0b702df2-efdc-4a2c-9d77-7ce855442701",
-              "port": "65cdce82-1fe5-43fc-9873-e38cc47a4dee"
+              "port": "ba7da4f9-6307-4bed-9497-bf99f3ccaad4"
             },
             "target": {
               "cell": "2183a816-92fb-4721-a913-c145b0d5f596",
-              "port": "1dcb9945-be34-4f97-89b4-da3efc7076f8"
+              "port": "476d0e2e-d241-402a-b3be-4fdb2bedad3c"
             },
             "vertices": [
               {
-                "x": 660,
-                "y": 390
+                "x": 740,
+                "y": 400
               }
             ]
           },
           {
             "position": {
-              "x": 490,
-              "y": 520
+              "x": 337.5,
+              "y": 505
             },
             "size": {
               "width": 110,
@@ -2129,13 +2135,18 @@
             "id": "964ccd5b-0087-4200-b438-b2a3a34cb5f1",
             "source": {
               "cell": "50cf7beb-8879-4b21-8731-c80c24248f98",
-              "port": "9ae4f420-cba1-4a14-9b30-1849d28de2ab"
+              "port": "b0f960b6-9443-4985-865e-5e6e248f91af"
             },
             "target": {
               "cell": "2183a816-92fb-4721-a913-c145b0d5f596",
-              "port": "65cdce82-1fe5-43fc-9873-e38cc47a4dee"
+              "port": "ba7da4f9-6307-4bed-9497-bf99f3ccaad4"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 480,
+                "y": 240
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -2182,7 +2193,12 @@
               "cell": "2183a816-92fb-4721-a913-c145b0d5f596",
               "port": "ba7da4f9-6307-4bed-9497-bf99f3ccaad4"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 860,
+                "y": 240
+              }
+            ]
           }
         ]
       }
