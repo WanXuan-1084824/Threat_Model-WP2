@@ -372,8 +372,8 @@
           },
           {
             "position": {
-              "x": 1180,
-              "y": 282
+              "x": 715,
+              "y": 610
             },
             "size": {
               "width": 140,
@@ -489,8 +489,8 @@
           },
           {
             "position": {
-              "x": 1190,
-              "y": 420
+              "x": 715,
+              "y": 710
             },
             "size": {
               "width": 160,
@@ -606,8 +606,8 @@
           },
           {
             "position": {
-              "x": 1110,
-              "y": 140
+              "x": 740,
+              "y": 535
             },
             "size": {
               "width": 210,
@@ -974,6 +974,52 @@
                 "y": 400
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "gebruiker & rol",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "gebruiker & rol"
+            ],
+            "id": "85cb71fd-b690-42b0-bd2b-84e65edf72d1",
+            "source": {
+              "cell": "0b702df2-efdc-4a2c-9d77-7ce855442701",
+              "port": "476d0e2e-d241-402a-b3be-4fdb2bedad3c"
+            },
+            "target": {
+              "cell": "be0af43e-72a2-4e3d-906a-42fb7bd7b98d",
+              "port": "e7a9bccf-96af-48d8-8255-2026274d3441"
+            }
           },
           {
             "position": {
@@ -1408,7 +1454,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "session",
+              "name": "sessie & rol",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1422,7 +1468,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "session"
+              "sessie & rol"
             ],
             "id": "582e570d-6bc4-4efc-9024-a65b31391bb2",
             "source": {
@@ -1437,6 +1483,178 @@
               {
                 "x": 660,
                 "y": 390
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 490,
+              "y": 520
+            },
+            "size": {
+              "width": 110,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "rolcontrole"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "e7a9bccf-96af-48d8-8255-2026274d3441"
+                },
+                {
+                  "group": "right",
+                  "id": "42646cb3-9ab5-4125-9392-197d383dbeb3"
+                },
+                {
+                  "group": "bottom",
+                  "id": "d92fecf5-ee2b-44a3-922c-69acb3a67007"
+                },
+                {
+                  "group": "left",
+                  "id": "50c28421-b348-4f02-9055-e436205470cd"
+                }
+              ]
+            },
+            "id": "be0af43e-72a2-4e3d-906a-42fb7bd7b98d",
+            "zIndex": 24,
+            "data": {
+              "type": "tm.Process",
+              "name": "rolcontrole",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 25,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "toegang",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "toegang"
+            ],
+            "id": "bf9ed0d0-e032-4616-8855-62e3aeb7322f",
+            "source": {
+              "x": 600,
+              "y": 570
+            },
+            "target": {
+              "cell": "6d576e71-db55-4912-8cb9-a94d24cacd8f",
+              "port": "3e7b964d-480a-4763-8237-55ac6150425a"
+            },
+            "vertices": [
+              {
+                "x": 560,
+                "y": 660
               }
             ]
           }
