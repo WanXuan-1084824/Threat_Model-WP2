@@ -866,6 +866,58 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "checken",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "checken"
+            ],
+            "id": "f9438d34-abc3-4a36-a8e9-2fcd393690b0",
+            "source": {
+              "cell": "0b702df2-efdc-4a2c-9d77-7ce855442701",
+              "port": "1dcb9945-be34-4f97-89b4-da3efc7076f8"
+            },
+            "target": {
+              "cell": "706117dd-112c-4b33-abfb-5a7552d2aed8",
+              "port": "6824a6b0-3672-4241-9032-422bb808f891"
+            },
+            "vertices": [
+              {
+                "x": 870,
+                "y": 377
+              }
+            ]
+          },
+          {
             "position": {
               "x": 486,
               "y": 332
@@ -1156,8 +1208,8 @@
           },
           {
             "position": {
-              "x": 970,
-              "y": 342
+              "x": 990,
+              "y": 337
             },
             "size": {
               "width": 120,
@@ -1178,7 +1230,6 @@
             },
             "visible": true,
             "shape": "store",
-            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -1261,7 +1312,7 @@
                 }
               ]
             },
-            "id": "3c3a21cb-a1da-4dfd-8e21-8a6048ae4fab",
+            "id": "706117dd-112c-4b33-abfb-5a7552d2aed8",
             "data": {
               "type": "tm.Store",
               "name": "SQL-database",
@@ -1276,7 +1327,8 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            }
+            },
+            "zIndex": 20
           },
           {
             "shape": "flow",
@@ -1294,11 +1346,11 @@
             },
             "width": 200,
             "height": 100,
-            "zIndex": 19,
+            "zIndex": 21,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "goedkeuring",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1312,18 +1364,17 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "goedkeuring"
             ],
-            "id": "93b60eec-23a3-4e91-bfe3-b59310410162",
+            "id": "ae476ba3-3dcc-42eb-924f-ba9bb94673cc",
             "source": {
-              "cell": "0b702df2-efdc-4a2c-9d77-7ce855442701",
-              "port": "1dcb9945-be34-4f97-89b4-da3efc7076f8"
+              "x": 970,
+              "y": 400
             },
             "target": {
-              "cell": "3c3a21cb-a1da-4dfd-8e21-8a6048ae4fab",
-              "port": "6824a6b0-3672-4241-9032-422bb808f891"
-            },
-            "vertices": []
+              "cell": "0b702df2-efdc-4a2c-9d77-7ce855442701",
+              "port": "476d0e2e-d241-402a-b3be-4fdb2bedad3c"
+            }
           }
         ]
       }
