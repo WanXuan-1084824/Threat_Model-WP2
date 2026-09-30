@@ -741,7 +741,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "functie",
+              "name": "",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -755,7 +755,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "functie"
+              ""
             ],
             "id": "a19f7dae-5473-4877-96c1-7db075b30068",
             "source": {
@@ -765,7 +765,8 @@
             "target": {
               "cell": "669736e1-2ff0-405c-bdb2-52eb327e216f",
               "port": "6ec2b212-f304-4b55-9140-04b3f0d69990"
-            }
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1084,7 +1085,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "functie",
+              "name": "",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1098,7 +1099,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "functie"
+              ""
             ],
             "id": "dd9b1ade-5c47-4ba2-8391-ddd3569eda65",
             "source": {
@@ -1109,12 +1110,7 @@
               "cell": "cdd8620f-4ce9-4910-88e1-83e4dc5041f2",
               "port": "4204673b-0eff-495f-bd7e-b3bd6bb09911"
             },
-            "vertices": [
-              {
-                "x": 680,
-                "y": 690
-              }
-            ]
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1849,7 +1845,7 @@
           },
           {
             "position": {
-              "x": 175,
+              "x": 202.5,
               "y": 327
             },
             "size": {
@@ -2200,7 +2196,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "functie",
+              "name": "",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2214,7 +2210,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "functie"
+              ""
             ],
             "id": "87d272a3-9d6c-4465-b987-eb1426440b54",
             "source": {
@@ -2225,12 +2221,7 @@
               "cell": "79ebc779-e21b-45fe-9189-15af6767ed7f",
               "port": "46cbabb6-04be-4159-b10f-c2d0a66213ae"
             },
-            "vertices": [
-              {
-                "x": 630,
-                "y": 560
-              }
-            ]
+            "vertices": []
           },
           {
             "position": {
@@ -2477,6 +2468,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 33,
             "ports": {
               "groups": {
                 "top": {
@@ -2560,7 +2552,6 @@
               ]
             },
             "id": "cdd8620f-4ce9-4910-88e1-83e4dc5041f2",
-            "zIndex": 33,
             "data": {
               "type": "tm.Process",
               "name": "status",
@@ -2574,6 +2565,52 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 34,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "toegang",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "toegang"
+            ],
+            "id": "3d0cdcb0-640c-4bf3-9a95-4f13bbf13c97",
+            "source": {
+              "x": 310,
+              "y": 370
+            },
+            "target": {
+              "x": 390,
+              "y": 330
             }
           }
         ]
