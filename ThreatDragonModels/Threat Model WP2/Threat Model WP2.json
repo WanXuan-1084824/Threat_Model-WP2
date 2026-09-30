@@ -866,54 +866,6 @@
             }
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "4502efef-7cb3-4049-91b3-1b2b31e7fe12",
-            "source": {
-              "cell": "0b702df2-efdc-4a2c-9d77-7ce855442701",
-              "port": "1dcb9945-be34-4f97-89b4-da3efc7076f8"
-            },
-            "target": {
-              "cell": "0b702df2-efdc-4a2c-9d77-7ce855442701",
-              "port": "1dcb9945-be34-4f97-89b4-da3efc7076f8"
-            },
-            "vertices": [],
-            "parent": "0b702df2-efdc-4a2c-9d77-7ce855442701"
-          },
-          {
             "position": {
               "x": 486,
               "y": 332
@@ -1082,7 +1034,7 @@
           {
             "position": {
               "x": 750,
-              "y": 337
+              "y": 342
             },
             "size": {
               "width": 90,
@@ -1100,6 +1052,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -1197,7 +1150,6 @@
               "privilegeLevel": "",
               "threats": []
             },
-            "zIndex": 17,
             "children": [
               "4502efef-7cb3-4049-91b3-1b2b31e7fe12"
             ]
@@ -1226,6 +1178,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -1309,7 +1262,6 @@
               ]
             },
             "id": "3c3a21cb-a1da-4dfd-8e21-8a6048ae4fab",
-            "zIndex": 18,
             "data": {
               "type": "tm.Store",
               "name": "SQL-database",
@@ -1364,19 +1316,14 @@
             ],
             "id": "93b60eec-23a3-4e91-bfe3-b59310410162",
             "source": {
-              "x": 840,
-              "y": 370
+              "cell": "0b702df2-efdc-4a2c-9d77-7ce855442701",
+              "port": "1dcb9945-be34-4f97-89b4-da3efc7076f8"
             },
             "target": {
               "cell": "3c3a21cb-a1da-4dfd-8e21-8a6048ae4fab",
               "port": "6824a6b0-3672-4241-9032-422bb808f891"
             },
-            "vertices": [
-              {
-                "x": 860,
-                "y": 330
-              }
-            ]
+            "vertices": []
           }
         ]
       }
