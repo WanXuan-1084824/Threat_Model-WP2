@@ -2278,12 +2278,12 @@
           },
           {
             "position": {
-              "x": 785,
-              "y": 750
+              "x": 773.75,
+              "y": 760
             },
             "size": {
-              "width": 120,
-              "height": 130
+              "width": 140,
+              "height": 120
             },
             "attrs": {
               "text": {
@@ -2541,8 +2541,8 @@
             },
             "vertices": [
               {
-                "x": 1060,
-                "y": 640
+                "x": 1090,
+                "y": 620
               }
             ]
           },
@@ -2734,6 +2734,11 @@
                 "button-remove",
                 "vertices",
                 "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
                 "target-arrowhead"
               ],
               "name": null
@@ -2778,13 +2783,19 @@
             ],
             "id": "77fae8a5-f268-402c-a177-5d81778818e4",
             "source": {
-              "x": 1230,
-              "y": 530
+              "cell": "0b702df2-efdc-4a2c-9d77-7ce855442701",
+              "port": "476d0e2e-d241-402a-b3be-4fdb2bedad3c"
             },
             "target": {
               "cell": "cdd8620f-4ce9-4910-88e1-83e4dc5041f2",
               "port": "5b0f2bd5-4d3c-4e1f-ae7a-4e6ea177cf16"
-            }
+            },
+            "vertices": [
+              {
+                "x": 1150,
+                "y": 650
+              }
+            ]
           }
         ]
       }
