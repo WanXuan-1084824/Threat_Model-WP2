@@ -1744,7 +1744,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "sessie & rol",
+              "name": "sessie",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1758,7 +1758,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "sessie & rol"
+              "sessie"
             ],
             "id": "582e570d-6bc4-4efc-9024-a65b31391bb2",
             "source": {
