@@ -251,6 +251,13 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -264,7 +271,7 @@
             },
             "attrs": {
               "text": {
-                "text": "organisatie"
+                "text": "gebruikers"
               },
               "body": {
                 "stroke": "#333333",
@@ -360,7 +367,7 @@
             "id": "a1d91a2c-5cbc-44e9-8a2e-cacd36aa4df9",
             "data": {
               "type": "tm.Actor",
-              "name": "organisatie",
+              "name": "gebruikers",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -1423,6 +1430,52 @@
                 "y": 470
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "imgelogd",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "imgelogd"
+            ],
+            "id": "91cc46c3-c4e2-4d47-a6f4-e6ac29080322",
+            "source": {
+              "x": 450,
+              "y": 170
+            },
+            "target": {
+              "x": 550,
+              "y": 270
+            }
           },
           {
             "position": {
@@ -2605,12 +2658,12 @@
             ],
             "id": "3d0cdcb0-640c-4bf3-9a95-4f13bbf13c97",
             "source": {
-              "x": 310,
-              "y": 370
+              "cell": "be0af43e-72a2-4e3d-906a-42fb7bd7b98d",
+              "port": "42646cb3-9ab5-4125-9392-197d383dbeb3"
             },
             "target": {
-              "x": 390,
-              "y": 330
+              "cell": "2183a816-92fb-4721-a913-c145b0d5f596",
+              "port": "65cdce82-1fe5-43fc-9873-e38cc47a4dee"
             }
           }
         ]
