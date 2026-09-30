@@ -866,8 +866,8 @@
             },
             "vertices": [
               {
-                "x": 650,
-                "y": 300
+                "x": 660,
+                "y": 320
               }
             ]
           },
@@ -971,7 +971,7 @@
             "vertices": [
               {
                 "x": 920,
-                "y": 430
+                "y": 400
               }
             ]
           },
@@ -1288,6 +1288,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 22,
             "ports": {
               "groups": {
                 "top": {
@@ -1385,8 +1386,7 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "zIndex": 22
+            }
           },
           {
             "shape": "flow",
@@ -1426,13 +1426,19 @@
             ],
             "id": "582e570d-6bc4-4efc-9024-a65b31391bb2",
             "source": {
-              "x": 700,
-              "y": 400
+              "cell": "0b702df2-efdc-4a2c-9d77-7ce855442701",
+              "port": "65cdce82-1fe5-43fc-9873-e38cc47a4dee"
             },
             "target": {
               "cell": "2183a816-92fb-4721-a913-c145b0d5f596",
               "port": "1dcb9945-be34-4f97-89b4-da3efc7076f8"
-            }
+            },
+            "vertices": [
+              {
+                "x": 660,
+                "y": 390
+              }
+            ]
           }
         ]
       }
