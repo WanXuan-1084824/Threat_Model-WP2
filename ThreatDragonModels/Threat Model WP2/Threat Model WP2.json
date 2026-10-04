@@ -140,8 +140,8 @@
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Spoofing",
-                  "description": "inloggegevens te weten komen en in de account inloggen",
-                  "mitigation": "wachtwoorden gehashed opslaan",
+                  "description": "inloggen met gehackte email en wachtwoord",
+                  "mitigation": "sterke wachtwoorden, hashen",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 4,
@@ -149,9 +149,16 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 2,
+                "spoofing": 3,
                 "repudiation": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -2989,6 +2996,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 44,
             "ports": {
               "groups": {
                 "top": {
@@ -3072,7 +3080,6 @@
               ]
             },
             "id": "91f22993-5d7e-4c7e-828c-b41a95a14dcf",
-            "zIndex": 44,
             "data": {
               "type": "tm.Actor",
               "name": "Rollen",
