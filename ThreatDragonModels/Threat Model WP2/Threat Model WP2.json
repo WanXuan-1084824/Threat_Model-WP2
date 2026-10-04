@@ -165,13 +165,6 @@
                 "spoofing": 4,
                 "repudiation": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1564,6 +1557,19 @@
                   "new": false,
                   "number": 10,
                   "score": ""
+                },
+                {
+                  "id": "77c61c8d-a7fa-4b39-8732-f4e9c192296d",
+                  "title": "functies gebruiken",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "functies of rechten gebruiken van andere rollen",
+                  "mitigation": "autorisatie",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 16,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
@@ -1572,7 +1578,7 @@
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 1,
-                "elevationOfPrivilege": 0
+                "elevationOfPrivilege": 2
               }
             }
           },
@@ -2972,6 +2978,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 14
+    "threatTop": 16
   }
 }
