@@ -152,13 +152,6 @@
                 "spoofing": 3,
                 "repudiation": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1422,8 +1415,8 @@
                 "text": "frontend"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1520,12 +1513,34 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "b21c2e5f-6e82-4cfc-84fa-ef93e915b916",
+                  "title": "gegevens veranderen",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "requests aanpassen voordat het uitgevoerd wordt in database",
+                  "mitigation": "controle of gebruiker recht heb om gegevens te wijzigen",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -1828,126 +1843,6 @@
                 "y": 300
               }
             ]
-          },
-          {
-            "position": {
-              "x": 202.5,
-              "y": 327
-            },
-            "size": {
-              "width": 110,
-              "height": 90
-            },
-            "attrs": {
-              "text": {
-                "text": "rolcontrole"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 24,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "e7a9bccf-96af-48d8-8255-2026274d3441"
-                },
-                {
-                  "group": "right",
-                  "id": "42646cb3-9ab5-4125-9392-197d383dbeb3"
-                },
-                {
-                  "group": "bottom",
-                  "id": "d92fecf5-ee2b-44a3-922c-69acb3a67007"
-                },
-                {
-                  "group": "left",
-                  "id": "50c28421-b348-4f02-9055-e436205470cd"
-                }
-              ]
-            },
-            "id": "be0af43e-72a2-4e3d-906a-42fb7bd7b98d",
-            "data": {
-              "type": "tm.Process",
-              "name": "rolcontrole",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
           },
           {
             "shape": "flow",
@@ -2978,7 +2873,7 @@
           {
             "position": {
               "x": 187.5,
-              "y": 240
+              "y": 357
             },
             "size": {
               "width": 112.5,
@@ -3130,19 +3025,20 @@
             ],
             "id": "3d0cdcb0-640c-4bf3-9a95-4f13bbf13c97",
             "source": {
-              "cell": "be0af43e-72a2-4e3d-906a-42fb7bd7b98d",
-              "port": "42646cb3-9ab5-4125-9392-197d383dbeb3"
+              "cell": "91f22993-5d7e-4c7e-828c-b41a95a14dcf",
+              "port": "97719b32-7c45-480c-938c-f75fad722bb4"
             },
             "target": {
               "cell": "2183a816-92fb-4721-a913-c145b0d5f596",
               "port": "65cdce82-1fe5-43fc-9873-e38cc47a4dee"
-            }
+            },
+            "vertices": []
           }
         ]
       }
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 4
+    "threatTop": 5
   }
 }
