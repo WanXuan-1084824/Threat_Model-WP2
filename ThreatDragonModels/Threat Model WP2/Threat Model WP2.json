@@ -138,7 +138,7 @@
                   "id": "58010395-dc40-4d09-a291-8cfe3ed3aa95",
                   "title": "inloggen op andere account",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "Critical",
                   "type": "Spoofing",
                   "description": "email en wachtwoord worden met elkaar vergeleken",
                   "mitigation": "sterke wachtwoorden, hashen",
@@ -151,7 +151,7 @@
                   "id": "26d3a5b0-0bb8-42aa-9bbe-61d875bc0150",
                   "title": "actie ontkennen",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Critical",
                   "type": "Repudiation",
                   "description": "gebruiker kan ontkennen dat hij iets heeft gedaan",
                   "mitigation": "logging",
@@ -162,8 +162,8 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 4,
-                "repudiation": 1
+                "spoofing": 5,
+                "repudiation": 2
               }
             }
           },
@@ -1534,9 +1534,9 @@
               "threats": [
                 {
                   "id": "b21c2e5f-6e82-4cfc-84fa-ef93e915b916",
-                  "title": "requestbaanpassen",
+                  "title": "request aanpassen",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Critical",
                   "type": "Tampering",
                   "description": "request aanpassen voordat het wordt verwerkt door backend",
                   "mitigation": "input voldoet aan regels",
@@ -1549,7 +1549,7 @@
                   "id": "50043738-dcfa-43bc-b264-6f774a1f265a",
                   "title": "systeem onbescikbaar maken",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Denial of service",
                   "description": "systeem overspoelen met requests",
                   "mitigation": "request limits",
@@ -1562,7 +1562,7 @@
                   "id": "77c61c8d-a7fa-4b39-8732-f4e9c192296d",
                   "title": "functies gebruiken",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Critical",
                   "type": "Elevation of privilege",
                   "description": "functies of rechten gebruiken van andere rollen",
                   "mitigation": "autorisatie",
@@ -1574,11 +1574,11 @@
               ],
               "threatFrequency": {
                 "spoofing": 0,
-                "tampering": 3,
+                "tampering": 5,
                 "repudiation": 0,
                 "informationDisclosure": 0,
-                "denialOfService": 1,
-                "elevationOfPrivilege": 2
+                "denialOfService": 2,
+                "elevationOfPrivilege": 3
               }
             }
           },
@@ -1704,7 +1704,7 @@
                   "id": "afbde048-aba5-429c-8922-c0b11bd06f76",
                   "title": "data aanpassen",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Critical",
                   "type": "Tampering",
                   "description": "gegevens van database kunnen worden veranderd",
                   "mitigation": "rechten beperken",
@@ -1717,7 +1717,7 @@
                   "id": "14ce7a04-3f0f-459a-b53b-f864a06c7f47",
                   "title": "uitlekken van gegevens",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Critical",
                   "type": "Information disclosure",
                   "description": "gegevens die privé moet zijn",
                   "mitigation": "encryptie",
@@ -1729,9 +1729,9 @@
               ],
               "threatFrequency": {
                 "spoofing": 0,
-                "tampering": 1,
+                "tampering": 2,
                 "repudiation": 0,
-                "informationDisclosure": 1,
+                "informationDisclosure": 2,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
